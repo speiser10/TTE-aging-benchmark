@@ -21,13 +21,12 @@ Conclusions: In aging cohort data, regularized Cox models, particularly elastic 
 
 Overview of the benchmark analysis pipeline implemented using the mlr3 ecosystem. 
 
-
 Data were preprocessed prior to modeling, followed by repeated cross validated model training and evaluation using discrimination, accuracy, calibration, and computational efficiency metrics. Preferable methods were selected based on prespecified criteria prioritizing high C index, good calibration, and low training time.
 
 ## Figure 2
 
 Boxplots of overall model performance across evaluation metrics. 
-
+![Model performance results](model_performance_boxplots.png)
 
 Distributions summarize results aggregated across cohorts and replications for discrimination (C index), accuracy and calibration (Brier score, integrated log loss, calibration index), and computational efficiency (training time). Preferable methods are those with high C-index and low Brier score, integrated log loss, calibration index, and training time. 
 
