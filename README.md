@@ -20,6 +20,7 @@ Conclusions: In aging cohort data, regularized Cox models, particularly elastic 
 ## Figure 1 
 
 Overview of the benchmark analysis pipeline implemented using the mlr3 ecosystem. 
+![Overview of the analysis](Figure 1.jpg)
 
 Data were preprocessed prior to modeling, followed by repeated cross validated model training and evaluation using discrimination, accuracy, calibration, and computational efficiency metrics. Preferable methods were selected based on prespecified criteria prioritizing high C index, good calibration, and low training time.
 
